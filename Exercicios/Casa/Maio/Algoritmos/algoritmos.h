@@ -1,0 +1,16 @@
+void lerArquivo(char *nomeArquivo);
+void bubbleSort(int *vetor, int tamanho);
+void insertionSort(int *vetor, int tamanho);
+void selectionSort(int *vetor, int tamanho);
+void troca(int vet[], int i, int j);
+int particiona(int vet[], int inicio, int fim);
+int particionaRandom(int vet[], int inicio, int fim);
+void quickSort(int vet[], int inicio, int fim);
+void shellSort(int *vetor, int tamanho);
+void merge(int *vetor, int inicio, int meio, int fim);
+void mergeSort(int *vetor, int inicio, int fim);
+void heapify(int *vetor, int tamanho, int i);
+void heapSort(int *vetor, int tamanho);
+int getMax(int *vetor, int tamanho);
+void countSort(int *vetor, int tamanho, int exp);
+void radixSort(int *vetor, int tamanho);
