@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 // Função para preencher o arquivo com números em ordem crescente
 void preencherOrdenado(FILE *arquivo, int tamanho) {
     for (int i = 1; i <= tamanho; i++) {
